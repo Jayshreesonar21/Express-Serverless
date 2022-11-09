@@ -1,0 +1,29 @@
+service: sls-boilerplate-sequilize
+frameworkVersion: '3'
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  api:
+    handler: functions/team/handler.team
+    events:
+      - http:
+          path: teams
+          method: get
+      - http:
+          path: teams/{id}
+          method: get
+      - http:
+          path: teams
+          method: post
+      - http:
+          path: teams/{id}
+          method: delete
+      - http:
+          path: teams/{id}
+          method: put

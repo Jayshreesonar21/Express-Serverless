@@ -1,0 +1,38 @@
+{
+  "name": "serverless-mysql-sequelize",
+  "version": "1.0.0",
+  "description": "This will be a guide+boilerplate on getting started on with Serverless + MySQL with Sequelize (ORM for NodeJS)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Jayshreesonar21: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@github.com/Jayshreesonar21/Serverless-sequelize-mysql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayshreesonar21/Serverless-sequelize-mysql/issues"
+  },
+  "homepage": "https://github.com/Jayshreesonar21/Serverless-sequelize-mysql#readme",
+  "devDependencies": {
+    "serverless-offline": "^11.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validation": "^4.1.0",
+    "helmet": "^6.0.0",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "pg": "^8.8.0",
+    "sequelize": "^6.25.5",
+    "serverless-http": "^3.1.0"
+  }
+}
